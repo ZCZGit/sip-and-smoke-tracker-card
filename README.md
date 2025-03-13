@@ -4,19 +4,19 @@ The **Sip and Smoke Tracker Card** is a custom Home Assistant Lovelace card desi
 
 ## Dependencies
 
-This custom card depends on the **[sip-and-smoke-tracker-consumables-card](https://gitea-rpiprd.zcznet.uk/gitchadmin/sip-and-smoke-tracker-consumables-card)**. 
+This custom card depends on the **[sip-and-smoke-tracker-consumables-card](https://github.com/ZCZGit/sip-and-smoke-tracker-consumables-card)**. 
 
 Make sure to have the `sip-and-smoke-tracker-consumables-card` installed and configured correctly in your Home Assistant setup before using this card. The `sip-and-smoke-tracker-consumables-card` provides the underlying data and entities required for aggregating and displaying consumable statistics.
 
-This custom card also requires **[sip-and-smoke-tracker](https://gitea-rpiprd.zcznet.uk/ZCZNET/sip-and-smoke-tracker)** integration to function properly. The integration is responsible for providing device data, such as entities and attributes, which this card uses to display information dynamically.
+This custom card also requires **[sip-and-smoke-tracker](https://github.com/ZCZGit/sip-and-smoke-tracker)** integration to function properly. The integration is responsible for providing device data, such as entities and attributes, which this card uses to display information dynamically.
 
 ### Optional Extras
 
-This custom card can nest the **[sip-and-smoke-tracker-amount-changer](https://gitea-rpiprd.zcznet.uk/gitchadmin/sip-and-smoke-tracker-amount-changer)** if include_updater: true and card is also installed in HA. 
+This custom card can nest the **[sip-and-smoke-tracker-amount-changer](https://github.com/ZCZGit/sip-and-smoke-tracker-amount-changer)** if include_updater: true and card is also installed in HA. 
 
 ## Features
 
-- **Dynamic Device Rendering**: Automatically detects and renders devices created by **[sip-and-smoke-tracker](https://gitea-rpiprd.zcznet.uk/ZCZNET/sip-and-smoke-tracker)**.
+- **Dynamic Device Rendering**: Automatically detects and renders devices created by **[sip-and-smoke-tracker](https://github.com/ZCZGit/sip-and-smoke-tracker)**.
 - **Aggregated Statistics**: Displays most popular attributes (e.g., regions, countries, types) for each consumable type which are retrieved from the cards nested.
 - **Featured Card**: Automatically highlights a featured device based on its recent addition, or allows manual overrides via configuration.
 - **Expandable Cards**: Nested cards for detailed views of individual devices.
